@@ -44,7 +44,7 @@ func main() {
 
 			fmt.Printf("%s:\n", rep.GetFullName())
 			fmt.Println("  ", rep.GetDescription())
-			fmt.Println("  ", rep.GetURL())
+			fmt.Println("  ", rep.GetHTMLURL())
 			fmt.Printf("   lang:%s stars:%d forks:%d\n", rep.GetLanguage(), rep.GetStargazersCount(), rep.GetForksCount())
 		}
 
